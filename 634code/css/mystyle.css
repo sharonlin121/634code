@@ -1,0 +1,12 @@
+/*go one folder up*/
+body{background-image: url("../background image.webp");}
+/*../move one step up*/
+
+/*apply to all*/
+h1{text-align:center;color:brown;}
+/*id has to be unique*/
+#heading-section-top{color:green}
+/*class cn be repeated*/
+.font-color-pink{color:pink;}
+h4{text-decoration: wavy underline red;}
+
