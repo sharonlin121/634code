@@ -9,7 +9,8 @@ h1{text-align:center;color:brown;}
 #heading-section-top{color:green}
 /*class cn be repeated*/
 .font-color-pink{color:pink;}
-h4{text-decoration: wavy underline red;}
+h4{text-decoration: wavy underline red !important}
+/*!important=take precedence*/
 
 .p1 { font-family: "Times New Roman", Times, serif; } 
 
@@ -26,3 +27,18 @@ font-style:italic}
 
 a:hover{color: brown;}
 a:visited{color: blueviolet;}
+a:link, a:visited{background-color:#f44336;
+color:white;
+padding:26px 50px 75px 100px;
+margin:30px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+border-radius: 10px;}
+
+@media(max-width: 576px){
+  body{
+    background-color: rgb(127, 165, 255);
+  }
+}
+
